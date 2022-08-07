@@ -1,0 +1,138 @@
+.text-component {
+    cursor: default;
+    transition: color 0.3s ease-out;
+
+    &.-small {
+        font-size: 0.75rem;
+    }
+
+    &.-medium {
+        font-size: 0.8125rem;
+    }
+
+    &.-large {
+        font-size: 1rem;
+    }
+
+    &.-ocean-blue {
+        color: var(--ocean-blue);
+    }
+
+    &.-sea-blue {
+        color: #BBCBE3;
+    }
+
+    &.-light-black {
+        color: var(--light-black);
+    }
+
+    &.-red {
+        color: var(--danger-red);
+    }
+
+    &.-light-black {
+        color: var(--light-black);
+    }
+
+    &.-grassy-green {
+        color: var(--grassy-green);
+    }
+
+    &.-elf-green {
+        color: var(--elf-green);
+    }
+
+    &.-green-leaf {
+        color: #3A8D08;
+    }
+
+    &.-yellow {
+        color: var(--yellow);
+    }
+
+    &.-warm-grey {
+        color: var(--warm-grey);
+    }
+
+    &.-dove-grey {
+        color: var(--dove-grey);
+    }
+
+    &.-orange {
+        color: var(--ocre);
+    }
+
+    &.-black {
+        color: var(--black);
+    }
+
+    &.-cinnabar {
+        color: var(--cinnabar);
+    }
+
+    &.-salmon {
+        color: #fe8a65;
+    }
+
+    &.-white {
+        color: white;
+    }
+
+    &.-lighter-grey {
+        color: var(--lighter-grey);
+    }
+
+    &.light {
+        text-transform: uppercase;
+        letter-spacing: 0.125rem;
+        font-weight: 400;
+    }
+
+    &.uppercase {
+        text-transform: uppercase;
+    }
+
+    &.dark {
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+
+    &.errorText {
+        display: inline-block;
+        margin-top: 0.25rem;
+        font-size: 0.75rem;
+        color: var(--danger-red);
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: color 0.3s ease-out, transform 0.2s linear;
+        word-wrap: break-word;
+        text-align: left;
+    }
+
+    &.errorText.visible {
+        transform: unset;
+    }
+
+    &.overflow {
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    &.noWrap {
+        white-space: nowrap;
+
+        a {
+            white-space: nowrap;
+        }
+    }
+
+    &.semibold {
+        font-weight: 600;
+    }
+
+    &.limitLines {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+}

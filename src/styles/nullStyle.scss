@@ -32,3 +32,99 @@ ul li {list-style: none;}
 img {vertical-align: top;}
 h1,h2,h3,h4,h5,h6 {font-size: inherit;font-weight: 400;}
 /*Обнуление*/
+
+:root {
+    // Blue
+    --black-squeeze: #f9fbfd;
+    --lavender: #eef9ff;
+    --lily-white: #e6f6ff;
+    --foam: #e5f4fd;
+    --pattens-blue: #e4eef4;
+    --pattens-blue-line: #d1dadf;
+    --light-blue-gray: #dfeaf0;
+    --botticelli: #dbe5ed;
+    --blue-alice: #ebf7ff;
+    --crayola: #d5dee8;
+    --geyser: #d1dadf;
+    --link-water: #cae4f2;
+    --very-light-blue: #bdced9;
+    --periwinkle-gray: #bbcbe3;
+    --light-grey-blue: #8fb8cc;
+    --habrahabr-colour: #88a4b7;
+    --moderate-aquamarine: #74d2b0;
+    --cornflower-blue: #89c6e6;
+    --royal-purple: #6441a5;
+    --indigo: #6385dd;
+    --malibu: #51c1f9;
+    --blue: #43a6d9;
+    --facebook-colour: #326199;
+    --ocean-blue: #0076b3;
+    --marine-blue: #003a58;
+    --light-blue-shadow: rgba(12, 82, 118, 0.13);
+    --cloud-burst-rgb: 36, 57, 86;
+    --cloud-burst: rgb(--cloud-burst-rgb);
+    --mirage: #18202c;
+
+    //Green
+    --grassy-green: #4da400;
+    --elf-green: #0a9269;
+    --dark-pastel-green: #02b940;
+    --gray-green: rgba(0, 30, 45, 0.9);
+    --bright-yellow-green: #8cce00;
+
+    //Yellow
+    --silky: #fff4d9;
+    --cream-brulee: #ffe9a3;
+    --light-yellow: #ffdd73;
+    --yellow: #ffc71a;
+    --lightning-yellow: #ffc719;
+    --golden-craiola: #e5d09b;
+    --dark-yellow: #deb13d;
+    --ocre: #cb9a00;
+    --flower-white: #fffbed;
+    --transparent-yellow-30: rgba(254, 195, 12, 0.3);
+    --transparent-yellow-15: rgba(254, 195, 12, 0.15);
+
+    //Grey
+    --white: #ffffff;
+    --smoky-white: #f1f1f1;
+    --gallery: #efefef;
+    --solitude: #e8edf1;
+    --catskill-white: #e4eef4;
+    --lighter-grey: #ccc;
+    --light-telegrey: #cbcbcb;
+    --warm-grey: #999999;
+    --gray-icon-colour: #97a3ab;
+    --silver-grey: #777777;
+    --darker-grey: #737577;
+    --dove-grey: #666666;
+    --light-black: #444444;
+    --greyish-brown: #303030;
+    --dark: #222222;
+    --black: #000000;
+    --silver-grey: #8a98a0;
+
+    //Red
+    --light-red: #fff2ef;
+    --zinnwaldite-pink: #ffcec4;
+    --scandal-orange: #ff7447;
+    --pumpkin: #ff7612;
+    --salmon: #fe8a65;
+    --carrot-colour: #f15d2d;
+    --moderate-orange: #ef6b41;
+    --carmine-pink: #ec3323;
+    --cinnabar: #e86035;
+    --danger-red: #e50000;
+    --confirm-red: #ff5d47;
+    --red: #db5860;
+    --red-orange: #c93818;
+    --regular-red: #b06a00;
+
+    --font-stack: "Open Sans", sans-serif;
+    --font-size: 0.875rem;
+    --font-color: var(--greyish-brown);
+
+    --ease: 0.3s ease-out;
+    --fast-ease: 0.15s ease-out;
+    --shadow: 0 0.125rem 0.5rem 0 rgba(0, 58, 88, 0.1);
+}

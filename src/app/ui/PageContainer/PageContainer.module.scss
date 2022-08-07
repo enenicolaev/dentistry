@@ -1,0 +1,16 @@
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 40px;
+  flex-grow: 1;
+}
